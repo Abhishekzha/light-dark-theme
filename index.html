@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Light and dark theme</title>
 </head>
 <body>
+    <!-- Dark mode switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span id="toggle-text">light</span>
+            <i class='fas fa-sun'></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
     <!-- Navigation -->
     <nav id="nav">
         <a href="#home">HOME</a>
@@ -53,9 +65,12 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, aperiam animi repellendus illo sunt consequatur iste dolorum pariatur ipsa natus quaerat iure sequi sed harum sit incidunt et? Voluptas, nihil.</p>
         </div>
      </section>
-     <section id="contact-section">
-        <div class="contact" id='contact'>
-            <h1>contact me</h1>
+     <section id="contact">
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook"></i>
         </div>
      </section>
     <!-- script -->
